@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GonzalezDIGITAL - Agencia de Marketing Digital</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E1F5C4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #F9D423;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            color: #007bff;
+            text-align: center;
+            margin-top: 0#007bff;
+            padding-top: 20px;
+        }
+
+        .section {
+            background-color: #EDE574;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-top: 0;
+        }
+
+        p {
+            color: #000000;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            line-height: 1.5;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-info p:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #79B784;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #007bff;
+            color: #ADD6BC;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .header-image {
+            display: block;
+            margin: 0 auto; 
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+
+    <img class="header-image" src="imag.html/LOGO.jpg" alt="LOGO.jpg" style="width: 100%; display: block;">
+
+    <div class="container">
+        <h1> Agencia"GonzalezDIGITAL" solucines de marketing</h1>
+        <div class="section">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una agencia de marketing digital dedicada a ayudar a las empresas a alcanzar sus objetivos en línea.</p>
+        </div>
+        <div class="section">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Diseño y desarrollo de sitios web personalizados.</li>
+                <li>Optimización para motores de búsqueda (SEO) para mejorar la visibilidad en línea.</li>
+                <li>Gestión integral de redes sociales para aumentar la interacción y el compromiso con la audiencia.</li>
+                <li>Publicidad en línea, incluyendo campañas de Google Ads y publicidad en redes sociales.</li>
+                <li>Estrategias de marketing de contenidos para generar interés y fidelidad de la audiencia.</li>
+            </ul>
+        </div>
+        <div class="section contact-info">
+            <h2>Contáctanos</h2>
+            <p>Para más información o para solicitar nuestros servicios, contáctanos a través del siguiente formulario:</p>
+            <form class="contact-form" action="#" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
